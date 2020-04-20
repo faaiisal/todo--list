@@ -1,0 +1,45 @@
+body {
+  background-color: #352f5b;
+}
+.container {
+  max-width: 400px;
+  width: 100%; 
+}
+.title {
+  color: #fff;
+}
+input[type=text],
+input[type=text]:focus {
+  color: #ffffff;
+  border: none; 
+  background: rgba(0,0,0,0.2);
+  max-width: 400px;
+}
+input[type=text]:focus {
+  outline: none;
+}
+.todos li {
+  background-color: #423a6f;
+}
+.delete {
+  cursor: pointer;
+}
+.add {
+  max-width: 400px;
+}
+.images {
+  width: 20px; 
+  height: 24px;
+}
+.form-control {
+  border: 1px solid red; 
+  position: relative;
+}
+.form-control:focus,
+.form-control:active {
+  outline: none;
+  box-shadow: none;
+}
+.filtered {
+  display: none !important;
+}
